@@ -96,9 +96,6 @@
 		B6CB51AA27560DA000A2A622 = {
 			isa = PBXGroup;
 			children = (
-				B6CB51ED2756290D00A2A622 /* DetailView.swift */,
-				B6CB51EB275619E500A2A622 /* AddUserName.swift */,
-				B6CB51E92756183C00A2A622 /* ImagePicker.swift */,
 				B6CB51B527560DA000A2A622 /* MeetupSaver */,
 				B6CB51C627560DA200A2A622 /* MeetupSaverTests */,
 				B6CB51D027560DA200A2A622 /* MeetupSaverUITests */,
@@ -121,6 +118,9 @@
 			children = (
 				B6CB51E52756151B00A2A622 /* Friend+CoreDataClass.swift */,
 				B6CB51E62756151B00A2A622 /* Friend+CoreDataProperties.swift */,
+				B6CB51ED2756290D00A2A622 /* DetailView.swift */,
+				B6CB51EB275619E500A2A622 /* AddUserName.swift */,
+				B6CB51E92756183C00A2A622 /* ImagePicker.swift */,
 				B6CB51B627560DA000A2A622 /* MeetupSaverApp.swift */,
 				B6CB51B827560DA000A2A622 /* ContentView.swift */,
 				B6CB51F12756362F00A2A622 /* MapView.swift */,
@@ -466,6 +466,7 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For taking a picture";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For saving the user location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -496,6 +497,7 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For taking a picture";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For saving the user location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
