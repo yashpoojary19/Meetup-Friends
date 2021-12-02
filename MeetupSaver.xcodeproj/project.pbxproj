@@ -14,6 +14,17 @@
 		B6CB51C827560DA200A2A622 /* MeetupSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51C727560DA200A2A622 /* MeetupSaverTests.swift */; };
 		B6CB51D227560DA200A2A622 /* MeetupSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51D127560DA200A2A622 /* MeetupSaverUITests.swift */; };
 		B6CB51D427560DA200A2A622 /* MeetupSaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51D327560DA200A2A622 /* MeetupSaverUITestsLaunchTests.swift */; };
+		B6CB51E227560E2600A2A622 /* Meetup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51E027560E2600A2A622 /* Meetup.xcdatamodeld */; };
+		B6CB51E427560E7700A2A622 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51E327560E7700A2A622 /* DataController.swift */; };
+		B6CB51E72756151B00A2A622 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51E52756151B00A2A622 /* Friend+CoreDataClass.swift */; };
+		B6CB51E82756151B00A2A622 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51E62756151B00A2A622 /* Friend+CoreDataProperties.swift */; };
+		B6CB51EA2756183C00A2A622 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51E92756183C00A2A622 /* ImagePicker.swift */; };
+		B6CB51EC275619E500A2A622 /* AddUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51EB275619E500A2A622 /* AddUserName.swift */; };
+		B6CB51EE2756290D00A2A622 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51ED2756290D00A2A622 /* DetailView.swift */; };
+		B6CB51F02756346600A2A622 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51EF2756346600A2A622 /* UserLocation.swift */; };
+		B6CB51F22756362F00A2A622 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51F12756362F00A2A622 /* MapView.swift */; };
+		B6CB51F42756434400A2A622 /* MKPointAnnotationOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51F32756434400A2A622 /* MKPointAnnotationOB.swift */; };
+		B6CB51F6275643C100A2A622 /* MkPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CB51F5275643C100A2A622 /* MkPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		B6CB51CD27560DA200A2A622 /* MeetupSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetupSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CB51D127560DA200A2A622 /* MeetupSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupSaverUITests.swift; sourceTree = "<group>"; };
 		B6CB51D327560DA200A2A622 /* MeetupSaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupSaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6CB51E127560E2600A2A622 /* Meetup.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meetup.xcdatamodel; sourceTree = "<group>"; };
+		B6CB51E327560E7700A2A622 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B6CB51E52756151B00A2A622 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B6CB51E62756151B00A2A622 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B6CB51E92756183C00A2A622 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B6CB51EB275619E500A2A622 /* AddUserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserName.swift; sourceTree = "<group>"; };
+		B6CB51ED2756290D00A2A622 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B6CB51EF2756346600A2A622 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		B6CB51F12756362F00A2A622 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B6CB51F32756434400A2A622 /* MKPointAnnotationOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKPointAnnotationOB.swift; sourceTree = "<group>"; };
+		B6CB51F5275643C100A2A622 /* MkPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MkPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,9 @@
 		B6CB51AA27560DA000A2A622 = {
 			isa = PBXGroup;
 			children = (
+				B6CB51ED2756290D00A2A622 /* DetailView.swift */,
+				B6CB51EB275619E500A2A622 /* AddUserName.swift */,
+				B6CB51E92756183C00A2A622 /* ImagePicker.swift */,
 				B6CB51B527560DA000A2A622 /* MeetupSaver */,
 				B6CB51C627560DA200A2A622 /* MeetupSaverTests */,
 				B6CB51D027560DA200A2A622 /* MeetupSaverUITests */,
@@ -94,8 +119,16 @@
 		B6CB51B527560DA000A2A622 /* MeetupSaver */ = {
 			isa = PBXGroup;
 			children = (
+				B6CB51E52756151B00A2A622 /* Friend+CoreDataClass.swift */,
+				B6CB51E62756151B00A2A622 /* Friend+CoreDataProperties.swift */,
 				B6CB51B627560DA000A2A622 /* MeetupSaverApp.swift */,
 				B6CB51B827560DA000A2A622 /* ContentView.swift */,
+				B6CB51F12756362F00A2A622 /* MapView.swift */,
+				B6CB51F32756434400A2A622 /* MKPointAnnotationOB.swift */,
+				B6CB51F5275643C100A2A622 /* MkPointAnnotation-Codable.swift */,
+				B6CB51E327560E7700A2A622 /* DataController.swift */,
+				B6CB51E027560E2600A2A622 /* Meetup.xcdatamodeld */,
+				B6CB51EF2756346600A2A622 /* UserLocation.swift */,
 				B6CB51BA27560DA200A2A622 /* Assets.xcassets */,
 				B6CB51BC27560DA200A2A622 /* Preview Content */,
 			);
@@ -258,7 +291,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6CB51B927560DA000A2A622 /* ContentView.swift in Sources */,
+				B6CB51EE2756290D00A2A622 /* DetailView.swift in Sources */,
+				B6CB51E72756151B00A2A622 /* Friend+CoreDataClass.swift in Sources */,
+				B6CB51F22756362F00A2A622 /* MapView.swift in Sources */,
+				B6CB51F42756434400A2A622 /* MKPointAnnotationOB.swift in Sources */,
+				B6CB51F6275643C100A2A622 /* MkPointAnnotation-Codable.swift in Sources */,
+				B6CB51E427560E7700A2A622 /* DataController.swift in Sources */,
+				B6CB51EA2756183C00A2A622 /* ImagePicker.swift in Sources */,
+				B6CB51E227560E2600A2A622 /* Meetup.xcdatamodeld in Sources */,
+				B6CB51EC275619E500A2A622 /* AddUserName.swift in Sources */,
 				B6CB51B727560DA000A2A622 /* MeetupSaverApp.swift in Sources */,
+				B6CB51E82756151B00A2A622 /* Friend+CoreDataProperties.swift in Sources */,
+				B6CB51F02756346600A2A622 /* UserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +466,7 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For saving the user location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +496,7 @@
 				DEVELOPMENT_TEAM = 2FRR58PFB2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "For saving the user location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -605,6 +651,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6CB51E027560E2600A2A622 /* Meetup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6CB51E127560E2600A2A622 /* Meetup.xcdatamodel */,
+			);
+			currentVersion = B6CB51E127560E2600A2A622 /* Meetup.xcdatamodel */;
+			path = Meetup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B6CB51AB27560DA000A2A622 /* Project object */;
 }
